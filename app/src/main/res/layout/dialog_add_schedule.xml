@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- 일정 제목 입력 -->
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="제목"
+        android:inputType="text"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- 시간 선택 버튼 -->
+    <Button
+        android:id="@+id/btnPickTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시간 선택"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- 감정 선택 라디오 그룹 -->
+    <RadioGroup
+        android:id="@+id/rgEmotion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rbEmotion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="긴장" />
+        <RadioButton
+            android:id="@+id/rbEmotion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기쁨"
+            android:layout_marginStart="16dp"/>
+        <RadioButton
+            android:id="@+id/rbEmotion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="슬픔"
+            android:layout_marginStart="16dp"/>
+    </RadioGroup>
+
+</LinearLayout>

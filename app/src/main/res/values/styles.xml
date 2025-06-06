@@ -1,0 +1,7 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="CalendarViewDark" parent="android:Widget.CalendarView">
+        <item name="android:background">#222222</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
